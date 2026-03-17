@@ -11,9 +11,6 @@ body{
     width: 25px;
     fill: white;
 }
-.grid-logo{
-    width: 25px;
-}
 
 .navbar{
     display: flex;

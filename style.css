@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #1f1f1f;
+}
+
+.beaker-logo{
+    width: 25px;
+    fill: white;
+}
+.grid-logo{
+    width: 25px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 25px;
+    align-items: center;
+    margin-top: 10px;
+}
+.navbar-left-element{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+.navbar-left-element li{
+    font-family:  Arial, sans-serif;
+    color: white;
+    font-size: 14px;
+}
+
+.navbar-right-element{
+    display: flex;
+    gap: 22px;
+    align-items: center;
+}
+
+.right-element-content{
+    display: flex;
+    list-style: none;
+    gap: 12px;
+}
+
+.right-element-content li{
+    font-family:  Arial, sans-serif;
+    color: white;
+    font-size: 14px;
+}
+
+.right-element-symbol{
+    display: flex;
+    list-style: none;
+    gap: 22px;
+    align-items: center;
+}
+
+.right-element-symbol li{
+    color: white;
+}

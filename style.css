@@ -59,3 +59,30 @@ body{
 .right-element-symbol li{
     color: white;
 }
+
+.main-contant{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo{
+    width: 25px;
+}
+
+.search-bar{
+    display: flex;
+    background-color: #303134;
+}
+
+.search-bar-right{
+    display: flex;
+}
+
+.search-bar-right-symbol{
+    display: flex;
+}
+
+.ai-tool-box{
+    display: flex;
+}

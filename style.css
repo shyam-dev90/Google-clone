@@ -31,6 +31,11 @@ body{
     font-size: 14px;
 }
 
+.navbar-left-element li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .navbar-right-element{
     display: flex;
     gap: 22px;
@@ -49,11 +54,27 @@ body{
     font-size: 14px;
 }
 
+.right-element-content li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .right-element-symbol{
     display: flex;
     list-style: none;
     gap: 22px;
     align-items: center;
+}
+
+.right-element-symbol li{
+     padding: 5px 7px;
+     transition: 0.6s;
+}
+
+.right-element-symbol li:hover{
+    cursor: pointer;
+    background-color: #303134;
+    border-radius: 100px;
 }
 
 .right-element-symbol li{
@@ -64,7 +85,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 100px;
+    margin-top: 100px;
 }
 
 .logo{
@@ -76,7 +97,7 @@ body{
     justify-content: space-between;
     align-items: center;
     background-color: #47494e;
-    width: 45vw;
+    width: 650px;
     padding: 5px;
     border-radius: 40px;
     margin: 20px 0px 30px 0px;
@@ -113,7 +134,7 @@ body{
     display: flex;
     align-items: center;
     gap: 5px;
-    border: 0.2px solid #CFCFCF;
+    border: 0.2px solid #cfcfcf99;
     padding: 3px 10px;
     margin-bottom: 3px;
     margin-right: 5px;
@@ -132,7 +153,7 @@ body{
 }
 
 .content-option-1, .content-option-2{
-    background-color: #47494e;
+    background-color: #303134;
     color: white;
     font-family: Arial, sans-serif;
     font-size: 14px;
@@ -166,4 +187,45 @@ body{
     color: white;
     font-family: Arial, sans-serif;
     font-size: 13px;
+}
+
+.footer-content{
+    background-color: #1a1919;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-list-left ul, .footer-list-right ul{
+    display: flex;
+    gap: 15px;
+    padding: 15px 25px;
+}
+
+.country-name p{
+    padding: 15px 25px;
+     color: white;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    list-style: none;
+}
+
+.footer-list{
+    display: flex;
+    justify-content: space-between;
+   border-top: 1px solid #cfcfcf69;
+}
+
+.footer-list-left ul li, .footer-list-right ul li{
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.footer-list-left ul li:hover, .footer-list-right ul li:hover{
+    text-decoration: underline;
 }
